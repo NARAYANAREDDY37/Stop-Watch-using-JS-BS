@@ -1,0 +1,10 @@
+/* Your custom styles */
+body{
+    background-color: black;
+}
+.btn{
+    border-radius: 30px;
+}
+.card, .card-header, .card-body{
+  box-shadow: 0 0 5px white;
+}

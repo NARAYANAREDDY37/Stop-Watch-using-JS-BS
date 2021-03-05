@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS files -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap/css/mdb.css" />
+    <link rel="stylesheet" href="bootstrap/css/style.css" />
+
+    <title>Stop Watch using JS-BS</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand font-weight-bold">Stop Watch using JS & BS</a>
+    </nav>
+
+    <!------------------ Start Here  ------------------>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto">
+          <div class="card mt-5">
+            <div class="card-header bg-secondary text-white text-center">
+              <h1 class="font-weight-bold">Stop watch</h1>
+            </div>
+            <div class="card-body text-center">
+              <h1 class="display-1">
+                <span id="minutes">00</span> : 
+                <span id="seconds">00</span> :
+                <span id="m-seconds">00</span>
+              </h1>
+              <button id="start-btn" class="btn btn-success">Start</button>
+              <button id="stop-btn" class="btn btn-danger">Stop</button>
+              <button id="reset-btn" class="btn btn-warning">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------ End Here  ------------------->
+    <div style="margin-bottom: 500px" ;></div>
+
+    <!-- bootstrap Js Files   -->
+    <script src="bootstrap/js/jQuery-3.5.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/mdb.min.js"></script>
+
+    <!-- Local JS Files -->
+    <script src="app.js"></script>
+  </body>
+</html>
